@@ -1,0 +1,125 @@
+@font-face{
+
+    font-family: 'MuseoSansCyrl';
+    
+    src: url('../fonts/MuseoSansCyrl\ -\ 300/MuseoSansCyrl\-300.eot') format('eot'),
+   
+    url('../fonts/MuseoSansCyrl\ -\ 300/MuseoSansCyrl\-300.woff') format('woff');
+    
+    font-weight: 300;
+    
+    font-style: normal;
+    
+    }
+    
+ @font-face{
+
+    font-family: 'MuseoSansCyrl';
+        
+    src: url('../fonts/MuseoSansCyrl\ -\ 700/MuseoSansCyrl\-700.eot') format('eot'),
+       
+    url('../fonts/MuseoSansCyrl\ -\ 700/MuseoSansCyrl\-700.woff') format('woff');
+        
+    font-weight: 700;
+        
+    font-style: normal;
+        
+    }
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'MuseoSansCyrl';
+    font-weight: 300;  
+    text-align: center;
+  	background:#2580CC;
+	color: #FFFFFF;  
+	height: 100vh;
+  	margin:0;
+	padding: 0;
+	}
+
+    .header {
+        align-items: center;
+        display: flex;
+        height: 73.5px;
+        line-height: 30px;
+        padding-left: 160px;
+        vertical-align: middle;
+        border-bottom: 1px solid rgba(255, 255, 255, .15);
+        
+    }
+    .header * {        
+        
+        height: 30px;
+    }
+    .header__logo {
+        font-size: 21px;
+        font-weight: 700;
+        padding-right: 17.5px;
+    }
+    .header__title{
+        font-size: 15px;
+        padding-left: 15.5px;
+        border-left: 1px solid #FFFFFF4D;
+    }
+    .form{
+        background: #F5F5F5;
+        border-radius: 10px;
+        color: #080808;
+        height: 384px;
+        padding: 40px;
+        width: 450px;
+    }
+    .form .form__header{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: left;
+        padding-bottom: 20px;
+        color: #080808;
+
+    }
+    .form .form__text{
+        font-size: 13px;
+        text-align: left;
+        margin-bottom: 30px;
+        color: #080808;;
+    }
+    .form__text_blue {
+        color: #2580CC;
+    }
+    .form input[type=button]{
+        display: block;
+        height: 35px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: #2580CC;
+        color: #FFFFFF;
+        border:0 none;
+        cursor:pointer;
+        font-family: 'MuseoSansCyrl';
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .content{
+        height: calc(100% - 144px);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        align-content: stretch;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        height: 73.5px;
+        line-height: 30px;
+        padding: 0 160px;
+        vertical-align: middle;
+    }
+    .footer *{
+        height: 30px;
+    }
